@@ -1,0 +1,520 @@
+.home-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  justify-content: center; /* Center vertically */
+
+}
+
+.home-page .HeroSection {
+  height: fit-content;
+  position: relative;
+  width: 100%; /* Adjust to full width */
+  max-width: 100%; /* Ensure it doesn't exceed the container width */
+  background-color: #ffa31a;
+}
+
+.home-page .frame-2 {
+  height: 450px;
+  position: relative;
+  margin: 0 auto; /* Center horizontally */
+  width: 100%;
+  max-width: 960px; /* Set a max-width to control width if needed */
+  position: relative; /* Use relative positioning for better control */
+  text-align: center; /* Ensure text/content inside the header is centered */
+}
+
+.home-page .div-wrapper {
+  align-items: center;
+  box-shadow: -2px 4px 4px #00000040;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 605px;
+  padding: 10px;
+  position: absolute;
+  top: 15%;
+}
+
+.home-page .div-2 {
+  color: transparent;
+  direction: rtl;
+  font-family: "Rubik Beastly", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.home-page .text-wrapper-2 {
+  color: #000000;
+}
+
+.home-page .text-wrapper-3 {
+  color: #000000;
+  font-family: "Rubik Bubbles", Helvetica;
+}
+
+.home-page .text-wrapper-4 {
+  color: #000000;
+  font-family: "Rubik Glitch", Helvetica;
+}
+
+.home-page .text-wrapper-5 {
+  color: #cd3d3d;
+  font-family: "Rubik Glitch", Helvetica;
+}
+
+.home-page .heart-instance {
+  height: 48px !important;
+  left: 441px !important;
+  position: absolute !important;
+  top: 224px !important;
+  width: 48px !important;
+  animation: pump 1s ease-in-out infinite; /* 1 second for the full pump cycle */
+  ;
+}
+
+.home-page .frame-3 {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(192, 22, 13) 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 25px;
+  box-shadow: 0px 5px 6px #00000040;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 368px;
+  padding: 10px;
+  position: absolute;
+  top: 75%;
+}
+
+.home-page .frame-3:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.home-page .text-wrapper-6 {
+  color: #000000;
+  direction: rtl;
+  font-family: "Rubik Bubbles", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.home-page .albedobase-XL-a-logo {
+  height: 342px;
+  left: 25px;
+  object-fit: cover;
+  position: absolute;
+  top: 5%;
+  width: 273px;
+}
+
+.home-page .albedobase-XL-a-logo:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.home-page .frame-4 {
+  background-color: #000000;
+  min-height: 100vh; /* Ensures it fills the entire screen height */
+  position: relative;
+  width: 100%;
+}
+
+.home-page .categories {
+  display: flex; /* Ensure the categories are aligned horizontally */
+  justify-content: center; /* Center the categories horizontally */
+  width: 100%; /* Full width for the container */
+  align-items: center;
+  margin-top: 30px;
+}
+
+.home-page .group-2 {
+  display: flex; /* Flex layout for the group-2 container */
+  gap: 110px; /* Optional: Add space between each category */
+}
+
+.home-page .frame-5 {
+  align-items: center;
+  border: 4px solid;
+  border-image: linear-gradient(to bottom, rgb(255, 0, 0), rgba(153, 0, 0, 0)) 1;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100px; /* Fixed width for each frame */
+  border-radius: 50%;
+  background-position: center bottom;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  transition: background-position 1s ease; /* Ensure background-position transitions smoothly */
+}
+
+.home-page .frame-5:hover {
+  border-image: rgb(255, 0, 0);
+  cursor: pointer;
+  scale: 1.1;
+  transition: scale 0.2s ease;;
+}
+
+.home-page .frame-5.selected {
+  background-image: url('/static/img/swords_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.png'); /* Keep background-image static */
+  background-position: center center; /* Animate position to the center */
+  background-size: 50px; /* Adjust icon size */
+  transition: background-position 1s ease; /* Smooth transition */
+  border-image: linear-gradient(to bottom, rgb(255, 0, 0), #ffa31a) 1;
+  transition: border-image 1s ease; /* Smooth transition for border */
+}
+
+.home-page .text-wrapper-7 {
+  -webkit-text-stroke: 1px #000000;
+  color: #ffffff;
+  direction: rtl;
+  font-family: "Rubik Bubbles", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -8px;
+  position: relative;
+  text-align: center;
+  text-shadow: 6px 4px 4px #00000040;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.home-page .frame-6 {
+  align-items: center;
+  border: 4px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(255, 0, 0), rgba(153, 0, 0, 0)) 1;
+  display: flex;
+  gap: 10px;
+  height: 52px;
+  justify-content: center;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  width: 82px;
+}
+
+.home-page .text-wrapper-8 {
+  -webkit-text-stroke: 1px #000000;
+  color: #ffffff;
+  direction: rtl;
+  font-family: "Rubik Bubbles", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -6px;
+  margin-right: -4px;
+  margin-top: -8px;
+  position: relative;
+  text-align: center;
+  text-shadow: 6px 4px 4px #00000040;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.home-page .group-3 {
+  height: 52px;
+  left: 112px;
+  position: absolute;
+  top: 38px;
+  width: 290px;
+}
+
+.home-page .frame-7 {
+  align-items: center;
+  border: 4px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(255, 0, 0), rgba(153, 0, 0, 0)) 1;
+  display: flex;
+  gap: 10px;
+  height: 52px;
+  justify-content: center;
+  left: 171px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  width: 119px;
+}
+
+.home-page .text-wrapper-9 {
+  -webkit-text-stroke: 1px #000000;
+  color: #ffffff;
+  direction: rtl;
+  font-family: "Rubik Bubbles", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -3.5px;
+  margin-right: -1.5px;
+  margin-top: -8px;
+  position: relative;
+  text-align: center;
+  text-shadow: 6px 4px 4px #00000040;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.home-page .frame-8 {
+  display: flex;
+  align-items: center; /* Center the items vertically, if needed */
+  gap: 50px; /* Space between the items */
+  position: relative;
+  top: 25px; /* This may be adjusted based on your layout */
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: space-around;
+  width: 980px;
+}
+
+.home-page .divwrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-page .header {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 99.9%);
+  background-color: transparent;
+  height: 72px;
+  width: 100%;
+  max-width: 960px; /* Set a max-width to control width if needed */
+  position: relative; /* Use relative positioning for better control */
+  top: 0;
+  margin: 0 auto; /* Center the header horizontally */
+  text-align: center; /* Ensure text/content inside the header is centered */
+}
+
+.home-page .frame-9 {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  left: 325px;
+  position: absolute;
+  top: 18px;
+  width: 352px;
+}
+
+.home-page .text-wrapper-10 {
+  color: #000000;
+  direction: rtl;
+  font-family: "Rubik Bubbles", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 95px;
+}
+
+.home-page .text-wrapper-11 {
+  color: #000000;
+  direction: rtl;
+  font-family: "Rubik Bubbles", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 101px;
+}
+
+.home-page .text-wrapper-12 {
+  color: #000000;
+  direction: rtl;
+  font-family: "Rubik Bubbles", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: 68px;
+}
+
+.home-page .text-wrapper-13 {
+  color: #000000;
+  font-family: "Narkisim-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 127px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: -268px;
+  white-space: nowrap;
+  width: 60px;
+}
+
+.home-page .basad {
+  color: #000000;
+  direction: rtl;
+  font-family: "Rubik Bubbles", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 869px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+  white-space: nowrap;
+  width: 80px;
+}
+
+.home-page .logo {
+  color: #ff0000;
+  direction: rtl;
+  font-family: "Rubik Bubbles", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  white-space: nowrap;
+  width: 158px;
+  
+}
+
+
+@keyframes pump {
+  0%, 100% {
+    transform: scale(1); /* Normal size */
+  }
+  50% {
+    transform: scale(1.1); /* Pump size */
+  }
+}
+
+/* Default styling remains the same for larger screens */
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  /* Adjust the general page layout */
+  .home-page {
+    flex-direction: column; /* Stack items vertically */
+    padding: 10px; /* Reduce padding for mobile */
+  }
+
+  .home-page .HeroSection {
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .home-page .frame-2 {
+    height: auto; /* Adjust height to fit mobile screens */
+    max-width: 100%; /* Ensure the frame takes full width on mobile */
+    padding: 10px;
+  }
+
+  .home-page .div-wrapper {
+    left: auto; /* Remove fixed left positioning */
+    top: 10%;
+    width: 90%; /* Adjust width for mobile */
+    text-align: center;
+  }
+
+  .home-page .frame-3 {
+    left: auto;
+    top: 85%; /* Adjust position for mobile */
+    width: 100%; /* Full width */
+    padding: 10px;
+  }
+
+  .home-page .categories, .home-page .group-2 {
+    flex-direction: column; /* Stack categories vertically */
+    gap: 20px; /* Increase spacing for better readability */
+  }
+
+  .home-page .frame-5 {
+    width: 80px; /* Adjust button size */
+  }
+
+  /* Adjust logo size */
+  .home-page .albedobase-XL-a-logo {
+    height: 150px;
+    width: 150px;
+    top: 5%;
+  }
+
+  /* Adjust font size */
+  .home-page .text-wrapper-6, 
+  .home-page .text-wrapper-7, 
+  .home-page .text-wrapper-8 {
+    font-size: 18px;
+  }
+  
+  /* Adjust other text elements */
+  .home-page .text-wrapper-10,
+  .home-page .text-wrapper-11,
+  .home-page .text-wrapper-12 {
+    font-size: 16px;
+  }
+
+  /* Adjust navigation bar or header */
+  .home-page .header {
+    height: auto; /* Allow header height to adjust */
+    padding: 10px; /* Add some padding */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Further adjustments for smaller mobile screens */
+  
+  .home-page .frame-3, .home-page .frame-2 {
+    width: 100%; /* Ensure frames take full width */
+    padding: 8px;
+  }
+
+  .home-page .frame-5 {
+    width: 60px; /* Even smaller buttons */
+  }
+
+  /* Adjust font sizes for extra small screens */
+  .home-page .text-wrapper-6, 
+  .home-page .text-wrapper-7, 
+  .home-page .text-wrapper-8 {
+    font-size: 16px;
+  }
+
+  /* Adjust positioning of absolutely positioned elements */
+  .home-page .frame-3 {
+    top: auto;
+    bottom: 20px; /* Place it at the bottom of the screen */
+  }
+
+  /* Adjust logo */
+  .home-page .albedobase-XL-a-logo {
+    height: 120px;
+    width: 120px;
+  }
+}
