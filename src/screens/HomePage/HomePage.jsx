@@ -51,20 +51,21 @@ export const HomePage = () => {
           </div>
 
           <Heart className="heart-instance" />
-
-          <div className="frame-3">
-            <div className="text-wrapper-6">לפריטים נוספים</div>
-          </div>
+          <a href="#main-section">
+            <div className="frame-3" >
+              <div className="text-wrapper-6">הצוות שלנו</div>
+            </div>
+          </a>
 
           <img
             className="albedobase-XL-a-logo"
             alt="Albedobase XL a logo"
-            src='.\public\img\albedobase-xl-a-logo-containing-a-muslim-women-with-provocativ-0.png'
+            src='./img/albedobase-xl-a-logo-containing-a-muslim-women-with-provocativ-0.png'
           />
         </div>
       </div>
 
-      <div className="frame-4">
+      <div className="frame-4" id="main-section">
         <div className="categories">
           <div className="group-2">
             <div
