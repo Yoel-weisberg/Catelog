@@ -172,7 +172,7 @@
 }
 
 .home-page .frame-5.selected {
-  background-image: url('/static/img/swords_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.png'); /* Keep background-image static */
+  background-image: url('./img/swords_24dp_F19E39_FILL0_wght400_GRAD0_opsz24.png'); /* Keep background-image static */
   background-position: center center; /* Animate position to the center */
   background-size: 50px; /* Adjust icon size */
   transition: background-position 1s ease; /* Smooth transition */
@@ -418,101 +418,84 @@
 
 /* Default styling remains the same for larger screens */
 
-/* Mobile styles */
+/* Adjustments for screens below 768px */
 @media only screen and (max-width: 768px) {
-  /* Adjust the general page layout */
   .home-page {
-    flex-direction: column; /* Stack items vertically */
-    padding: 10px; /* Reduce padding for mobile */
+    flex-direction: column;
+    padding: 10px;
   }
 
   .home-page .HeroSection {
-    height: auto; /* Allow height to adjust based on content */
+    height: auto;
   }
 
   .home-page .frame-2 {
-    height: auto; /* Adjust height to fit mobile screens */
-    max-width: 100%; /* Ensure the frame takes full width on mobile */
+    max-width: 100%;
     padding: 10px;
   }
 
   .home-page .div-wrapper {
-    left: auto; /* Remove fixed left positioning */
+    left: auto;
     top: 10%;
-    width: 90%; /* Adjust width for mobile */
+    width: 90%;
     text-align: center;
   }
 
   .home-page .frame-3 {
     left: auto;
-    top: 85%; /* Adjust position for mobile */
-    width: 100%; /* Full width */
+    top: 85%;
+    width: 100%;
     padding: 10px;
   }
 
   .home-page .categories, .home-page .group-2 {
-    flex-direction: column; /* Stack categories vertically */
-    gap: 20px; /* Increase spacing for better readability */
+    flex-direction: column;
+    gap: 20px;
   }
 
   .home-page .frame-5 {
-    width: 80px; /* Adjust button size */
+    width: 80px;
   }
 
-  /* Adjust logo size */
   .home-page .albedobase-XL-a-logo {
     height: 150px;
     width: 150px;
-    top: 5%;
   }
 
-  /* Adjust font size */
   .home-page .text-wrapper-6, 
   .home-page .text-wrapper-7, 
   .home-page .text-wrapper-8 {
     font-size: 18px;
   }
-  
-  /* Adjust other text elements */
-  .home-page .text-wrapper-10,
-  .home-page .text-wrapper-11,
-  .home-page .text-wrapper-12 {
-    font-size: 16px;
-  }
 
-  /* Adjust navigation bar or header */
   .home-page .header {
-    height: auto; /* Allow header height to adjust */
-    padding: 10px; /* Add some padding */
+    height: auto;
+    padding: 10px;
   }
 }
 
+/* Further adjustments for smaller screens (max-width: 480px) */
 @media only screen and (max-width: 480px) {
-  /* Further adjustments for smaller mobile screens */
-  
   .home-page .frame-3, .home-page .frame-2 {
-    width: 100%; /* Ensure frames take full width */
+    width: 100%;
     padding: 8px;
   }
 
   .home-page .frame-5 {
-    width: 60px; /* Even smaller buttons */
+    width: 60px;
   }
 
-  /* Adjust font sizes for extra small screens */
   .home-page .text-wrapper-6, 
   .home-page .text-wrapper-7, 
   .home-page .text-wrapper-8 {
     font-size: 16px;
   }
 
-  /* Adjust positioning of absolutely positioned elements */
   .home-page .frame-3 {
     top: auto;
-    bottom: 20px; /* Place it at the bottom of the screen */
+    bottom: 20px;
   }
 
-  /* Adjust logo */
   .home-page .albedobase-XL-a-logo {
     height: 120px;
     width: 120px;
