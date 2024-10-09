@@ -10,6 +10,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
     "google-spreadsheet": "^4.1.4",
     "googleapis": "^144.0.0",
     "prop-types": "^15.8.1",
