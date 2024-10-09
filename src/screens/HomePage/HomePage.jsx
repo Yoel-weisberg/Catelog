@@ -59,7 +59,7 @@ export const HomePage = () => {
           <img
             className="albedobase-XL-a-logo"
             alt="Albedobase XL a logo"
-            src="/img/albedobase-xl-a-logo-containing-a-muslim-women-with-provocativ-0.png"
+            src='.\public\img\albedobase-xl-a-logo-containing-a-muslim-women-with-provocativ-0.png'
           />
         </div>
       </div>
